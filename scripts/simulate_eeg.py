@@ -34,8 +34,8 @@ def simulate_eeg_waves(sim_time, sampling_rate=250):
 
     return t, alpha, beta, theta
 
-# Run the simulation for 10 seconds (or any desired duration)
-duration = 10
+# Run the simulation for 60 seconds (or any desired duration)
+duration = 60
 t, alpha, beta, theta = simulate_eeg_waves(duration)
 
 # Plotting EEG waves
